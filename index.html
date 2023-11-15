@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todoList</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <img class="header__img"
+            src="https://img.icons8.com/external-vectorslab-outline-color-vectorslab/53/external-13-business-intelligence-vectorslab-outline-color-vectorslab.png"
+            alt="logo to dolist">
+        <h1 class="header__tile">Todo List</h1>
+    </header>
+
+    <main class="main">
+        <div class="main__list-task">
+            <h2>Liste Taches</h2>
+            <hr>
+            <div class="main__list-task__task">
+                <!-- Place for add task -->
+                <div>
+                    <em>1. </em>
+                    <em>Tache1 </em>
+                    <em>[En cours]</em>
+                </div>
+
+                <div>
+                    <em>1. </em>
+                    <em>Tache1 </em>
+                    <em>[En cours]</em>
+                </div>
+                <div>
+                    <em>1. </em>
+                    <em>Tache1 </em>
+                    <em>[En cours]</em>
+                </div>
+                <div>
+                    <em>1. </em>
+                    <em>Tache1 </em>
+                    <em>[En cours]</em>
+                </div>
+            </div>
+        </div>
+
+        <div class="main__operation-task">
+            <form action="">
+                <label for="task_name">Titre Tache</label>
+                <input type="text" name="task_name" id="task_name">
+                <label for="task_detail">Detail Tache</label>
+                <input type="text" name="task_detail" id="task_detail">
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="task_completed">Compléter Tache</label>
+                </div>
+
+                <button type="button" id="add">AJOUTER</button>
+                <button type="button" id="update">MODIFIER</button>
+                <button type="button" id="delete">SUPPRIMER</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
